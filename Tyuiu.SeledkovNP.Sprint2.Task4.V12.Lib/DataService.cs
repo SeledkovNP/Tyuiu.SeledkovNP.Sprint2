@@ -8,7 +8,7 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task4.V12.Lib
             // ':' это разделения условий                    '/' это деление
             
             //                               условие:              первое                                                                             второе
-            double z = Math.Sqrt(x) > y * 2    ?     Math.Pow(7 + 2 / Math.Pow(y, 2), x)    :     (Math.Pow(3 * x, x) - Math.Pow(Math.Cos(y), 2) + 10) / (Math.Pow(y, 2) - Math.Pow(Math.Sin(x), 2) + 12);
+            double z = Math.Sqrt(x) > y * 2    ?     Math.Pow(7 + (2 / Math.Pow(y, 2)), x)    :     (3 * Math.Pow(x, 2) - Math.Pow(Math.Cos(y), 2) + 10) / (Math.Pow(y, 2) - Math.Pow(Math.Sin(x), 2) + 12);
             return Math.Round(z, 3);
 
         }

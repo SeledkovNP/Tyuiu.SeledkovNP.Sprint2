@@ -7,6 +7,7 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task4.V12.Test
         [TestMethod]
         public void TestMethod1()
         {
+            // исправленная ошибка, и настроен код
 
             DataService ds = new DataService();
             double x = 3;
