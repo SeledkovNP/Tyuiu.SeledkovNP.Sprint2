@@ -5,21 +5,21 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task5.V8.Lib
     {
         public string FindDateOfPreviousDay(int m, int n)
         {
-            
+            // m и n поменаемые местами, из за некоректного написания задаия
            
                 string res;
-                switch (n)
+                switch (m)
                 {
                     case 1:
-                        switch (m)
+                        switch (n)
                         {
                             case 1:
-                                n = 31;
-                                m = 12;
+                                m = 31;
+                                n = 12;
                                 break;
                             default:
-                                m = m - 1;
-                                switch (m)
+                                n = n - 1;
+                                switch (n)
                                 {
                                     case 1:
                                     case 3:
@@ -27,23 +27,23 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task5.V8.Lib
                                     case 7:
                                     case 8:
                                     case 10:
-                                        n = 31;
+                                        m = 31;
                                         break;
                                     case 2:
-                                        n = 28;
+                                        m = 28;
                                         break;
                                     default:
-                                        n = 30;
+                                        m = 30;
                                         break;
                                 }
                                 break;
                         }
                         break;
                     default:
-                        n = n - 1;
+                        m = m - 1;
                         break;
                 }
-                res = ($"{n}.{m}");  //сам ответь
+                res = ($"{m}.0{n}");  //сам ответь
                 return res;
 
             

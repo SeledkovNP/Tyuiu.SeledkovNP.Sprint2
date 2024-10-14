@@ -24,18 +24,18 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task5.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            // Первый дольжень идты день
+           
             string res;
 
             Console.WriteLine("Введите месяц: ");
-            int m = Convert.ToInt32(Console.ReadLine());
+            int n = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Введите день: ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            int m = Convert.ToInt32(Console.ReadLine());
 
            
 
-            if (((m < 1) || (m > 12)) || ((n < 1) || (n > 31)))
+            if (((n < 1) || (n > 12)) || ((m < 1) || (m > 31)))
             {
                 res = "Eror 404";
 
