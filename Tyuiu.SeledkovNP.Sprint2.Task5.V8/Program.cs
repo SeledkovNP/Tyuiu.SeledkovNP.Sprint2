@@ -27,11 +27,11 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task5.V8
 
             string res;
 
-            Console.WriteLine("Введите номер месяца m: ");
-            int m = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Введите номер дня n: ");
+            Console.WriteLine("Введите день: ");
             int n = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите месяц: ");
+            int m = Convert.ToInt32(Console.ReadLine());
 
             if (((m < 1) || (m > 12)) || ((n < 1) || (n > 31)))
             {
