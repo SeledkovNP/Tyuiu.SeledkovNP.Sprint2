@@ -5,9 +5,9 @@ namespace Tyuiu.SeledkovNP.Sprint2.Task5.V8.Lib
     {
         public string FindDateOfPreviousDay(int m, int n)
         {
-            // m и n поменаемые местами, из за некоректного написания задаия
-           
-                string res;
+            // m и n поменаемые местами, из за некоректного написания задаия      incorrect
+
+            string res;
                 switch (m)
                 {
                     case 1:
